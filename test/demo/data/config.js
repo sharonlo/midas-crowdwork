@@ -15,7 +15,7 @@ module.exports = {
       username: 'mc-demo',
       password: 'mc',
       title: 'Foreign Service Officer',
-      agency: 'Embassy Troublestan',
+      agency: 'Embassy Troublestan Consular Section',
       location: 'Troublestan City',
       photo: 'assets/users/mc.jpg'
     },
@@ -33,7 +33,7 @@ module.exports = {
       username: 'ambassador-demo',
       password: 'ambassador',
       title: 'US Ambassador to Troublestan',
-      agency: 'US Embassy Troublestan',
+      agency: 'Embassy Troublestan Political Section',
       location: 'Troublestan City',
       photo: 'assets/users/ambassador.jpg'
     },
@@ -42,8 +42,8 @@ module.exports = {
       username: 'assistantsecretary-demo',
       password: 'assistantsecretary',
       title: 'Assistant Secretary',
-      agency: 'Bureau of Stan Affairs',
-      location: 'Washington D.C.',
+      agency: 'Embassy Troublestan Political Section',
+      location: 'Washington',
       photo: 'assets/users/assistantsecretary.jpg'
     },
     'deskofficer': {
@@ -52,12 +52,12 @@ module.exports = {
       password: 'deskofficer',
       title: 'Foreign Affairs Officer',
       agency: 'Troublestan Desk',
-      location: 'Washington, D.C.',
+      location: 'Washington',
       photo: 'assets/users/deskofficer.jpg'
     }
   },
   tags: {
-    'Political Peporting': {
+    'Political Reporting': {
       type: 'skill',
       name: 'Political Reporting'
     },
@@ -73,7 +73,7 @@ module.exports = {
       type: 'topic',
       name: 'Elections'
     },
-    'Troublestan': {
+    'Troublestan Topic': {
       type: 'topic',
       name: 'Troublestan'
     },
@@ -97,7 +97,7 @@ module.exports = {
       type: 'location',
       name: 'Troublestan'
     },
-    'Washington D.C.': {
+    'Washington': {
       type: 'location',
       name: 'Washington, D.C'
     }
@@ -110,7 +110,7 @@ module.exports = {
       cover: 'assets/projects/state.jpg',
       owner: 'mattchessen',
       owners: ['ambassador'],
-      tags: ['Political Reporting', 'Consular Interviewing', 'Elections', 'Troublestan', 'Embassy Troublestan Political Section', 'Embassy Troublestan Consular Section', 'Polling', 'Troublestan', 'Troublestan City', 'Troublestan Desk'],
+      tags: ['Political Reporting', 'Consular Interviewing', 'Elections', 'Troublestan Topic', 'Embassy Troublestan Political Section', 'Embassy Troublestan Consular Section', 'Polling', 'Troublestan', 'Troublestan City', 'Troublestan Desk'],
       comments: [
         {
           topic: true,
@@ -146,7 +146,7 @@ module.exports = {
             },
             {
               user: 'ambassador',
-              value: 'Do you know if the guests were primarily from the Left tribe or the Right tribe?.'
+              value: 'Do you know if the guests were primarily from the Left tribe or the Right tribe?'
             },
             {
               user: 'deskofficer',
@@ -203,7 +203,7 @@ module.exports = {
           state: 'public',
           title: 'We need someone to turn this material into a cable',
           description: 'This should be collated into a 2 page cable. PolCouns will provide the analysis.'
-        }
+        },
         {
           state: 'public',
           title: 'We\'d like someone to informally poll the LES staff and local guard force for their views',
