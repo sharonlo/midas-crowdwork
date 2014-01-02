@@ -1,0 +1,33 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+# Ignore modules, should be built using `node install`
+node_modules
+# Ignore sails.js filesystem database
+.tmp/
+
+# Ignore production files
+assets/prod/js
+assets/prod/css
+assets/prod/font
+assets/prod/fonts
+
+# Ignore editor temp files
+*~
+*#
+*.bak
+
+.DS_STORE
+.tmp
+*.idea
